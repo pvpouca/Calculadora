@@ -1,0 +1,43 @@
+.container{
+    max-width:400px;
+    margin:auto auto auto auto;
+}
+
+#resultado {
+    text-align: right;
+    height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border: 0.5px solid #999;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1.3fr 1.3fr 1.3fr 1.3fr;
+}
+
+.button {
+    border: 0.5px solid #999;
+    line-height:100px;
+    text-align: center;
+    font-size: 25px;
+    cursor:pointer;
+}
+
+#equal {
+    background-color: rgb(119, 191, 24);
+    color:white;
+}
+
+.button:hover {
+    background-color: #323330;
+    color:white;
+    transition: 0.5s ease-in-out;
+}
+
+.rodape {
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+}
+
